@@ -23,35 +23,7 @@ const Footer = () => (
           </p>
         </Col>
       </Row>
-      <Row>
-        <Col
-          style={{
-            textDecoration: "underline",
-            fontSize: "1.4rem",
-            marginBottom: "1rem",
-            marginTop: "2rem",
-          }}
-        >
-          Menu
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={2} style={{ fontSize: "1.3rem" }}>
-          <Link to="/">
-            <span className="link_styles">Home</span>
-          </Link>
-        </Col>
-        <Col xs={2} style={{ fontSize: "1.3rem" }}>
-          <Link to="/about">
-            <span className="link_styles">About</span>
-          </Link>
-        </Col>
-        <Col xs={2} style={{ fontSize: "1.3rem" }}>
-          <Link to="/projects">
-            <span className="link_styles">Projects</span>
-          </Link>
-        </Col>
-      </Row>
+
       <Row className="footer_social text-center">
         <Col>
           <a
