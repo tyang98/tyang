@@ -46,7 +46,7 @@ const Footer = () => (
 
         <Col>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/tyang98"
             target="_blank"
             rel="noopener noreferrer"
           >
