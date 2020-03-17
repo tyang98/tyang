@@ -7,8 +7,7 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 import "./index.css"
 
 import project1Picture from "../images/portfolio/logo_rider.png"
-import project2Picture from "../images/portfolio/cake.png"
-import project3Picture from "../images/portfolio/game.png"
+import project2Picture from "../images/portfolio/tattler.png"
 
 /*######### PROJECT OBJECTS TEMPLATE################
 import projectPicture from ""
@@ -30,9 +29,8 @@ const project1 = {
   title: "Rider",
   date: "2020-01-15",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
+    "I joined Cornell Design & Tech Initiative in Fall 2019 as an Android Developer. I am responsible for the development of Rider, an Android and iOS app that allows users of CULift to request rides around campus. I developed this app along with one other developer using Flutter.",
   sourceURL: "https://github.com/cornell-dti/carriage-rider",
-  hostedURL: "http://www.google.com",
 }
 
 //Project 2
@@ -41,38 +39,21 @@ const project2 = {
   title: "Tattler",
   date: "2019-03-03",
   decription:
-    "A native Android app for the Tattler, Ithaca High School's student-run newspaper",
+    "A native Android app for the Tattler, Ithaca High School's student-run newspaper. Uses a Django backend to connect app to a database of articles. Deloped as a side-project to learn mobile development.",
   sourceURL: "https://github.com/tyang98/Tattler",
-  hostedURL: "https://www.google.com",
-}
-
-//Project 3
-
-const project3 = {
-  title: "Project 3 title",
-  date: "2019-02-12",
-  decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
-  sourceURL: "https://github.com/",
-  hostedURL: "https://www.google.com",
 }
 
 export default () => (
   <div className="App">
     <Layout>
-      {/*########### MyJumbo PROPS ##########
-    title: The title of the jumbotron
-    body: The body of the Jumbotron
-    */}
       <MyJumbo
-        title={"Projects Portfolio"}
-        body={"I think the best way of learning is by building Stuff."}
+        title={"Projects"}
+        body={"projects are an excellent way to learn and practice concepts/skills"}
+        body2={"here are some of my personal projects"}
       />
-      <hr />
-
       {/* TODO: Move the project objects into an array and map through them below. DRY is better. */}
 
-      <Container style={{ marginTop: "2.5rem" }}>
+      <Container>
         {/*/Props: 
       //imageSrcPath: the path to the image used 
       //title: The title of the card/App 
@@ -88,7 +69,6 @@ export default () => (
               date={project1.date}
               description={project1.decription}
               sourceURL={project1.sourceURL}
-              hostedURL={project1.hostedURL}
             />
           </Col>
         </Row>
@@ -100,19 +80,6 @@ export default () => (
               date={project2.date}
               description={project2.decription}
               sourceURL={project2.sourceURL}
-              hostedURL={project2.hostedURL}
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <ProjectCard
-              imageSrcPath={project3Picture}
-              title={project3.title}
-              date={project3.date}
-              description={project3.decription}
-              sourceURL={project3.sourceURL}
-              hostedURL={project3.hostedURL}
             />
           </Col>
         </Row>

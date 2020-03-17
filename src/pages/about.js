@@ -8,7 +8,7 @@ import "./index.css"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-import CV from "/" //Import you CV file here!
+import RESUME from "../resume/res.pdf" //Import you CV file here!
 import other from "/" //Import other downloadable here
 
 export default () => (
@@ -18,13 +18,12 @@ export default () => (
         body={
           "CS @ Cornell"
         }
-        body2={""}
+        body2={"learn a little about my background and expertise"}
         title={"Tony Yang"}
       />
-      <hr />
       <Container fluid>
         <Row style={{ marginTop: "2rem", marginBottom: "1.5rem", marginLeft: "20rem" }}>
-          <MyButton text={"Resume"} URL={CV} />
+          <MyButton text={"Resume"} URL={RESUME} />
         </Row>
         <Row>
           <Col>
@@ -36,6 +35,36 @@ export default () => (
             <h5>Computer Science student seeking enriching internship opportunities to apply software development skills for Summer 2020 </h5>
             <br />
           </Col>
+        </Row>
+        <hr />
+        <Row>
+          <Col>
+            <h3>Education</h3>
+          </Col>
+        </Row>
+        {/* Masters Degreee*/}
+        <Row>
+          <Col>
+            <h5>Cornell University</h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col>B.A. Computer Science</Col>
+          <Col>Expected May 2022</Col>
+        </Row>
+        <br></br>
+        <Row>
+          <Col> <b>Relevant Coursework: </b> Data Structures and Functional Programming, Object-Oriented Programming and Data Structures, Discrete Structures, Linear Algebra</Col>
+        </Row>
+        <br></br>
+        <Row>
+          <Col>
+            <h5>Ithaca High School</h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col>Regents Diploma with Advanced Designation | GPA: 4.10</Col>
+          <Col>2015-2019</Col>
         </Row>
         <hr />
         {/* This is the beginning of the career section*/}
@@ -116,31 +145,28 @@ export default () => (
           </Col>
         </Row>
         <hr />
-        {/* This is the beginning of the education section*/}
+        {/* This is the beginning of the skill section*/}
         <Row>
           <Col>
-            <h3>Education</h3>
-          </Col>
-        </Row>
-        {/* Masters Degreee*/}
-        <Row>
-          <Col>
-            <h5>Cornell University</h5>
+            <h3>Skills</h3>
           </Col>
         </Row>
         <Row>
-          <Col>B.A. Computer Science</Col>
-          <Col>Expected May 2022</Col>
+          <Col>
+            <h5>Technologies</h5>
+          </Col>
+        </Row>
+        <Row>
+          <Col>Java, OCaml, Kotlin, HMTL5, CSS, JavaScript, Python, Dart</Col>
         </Row>
         <br></br>
         <Row>
           <Col>
-            <h5>Ithaca High School</h5>
+            <h5>Tools</h5>
           </Col>
         </Row>
         <Row>
-          <Col>Regents Diploma with Advanced Designation | GPA: 4.10</Col>
-          <Col>2015-2019</Col>
+          <Col>Android Studio, Git, LaTeX, Vim, Flutter</Col>
         </Row>
 
       </Container>

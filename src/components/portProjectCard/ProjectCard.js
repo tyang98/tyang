@@ -34,7 +34,6 @@ const ProjectCard = props => {
 
           <Row>
             <MyButton text={"Source Code"} URL={props.sourceURL} />
-            <MyButton text={"Hosted App"} URL={props.hostedURL} />
           </Row>
         </Col>
       </Row>

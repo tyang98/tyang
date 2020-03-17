@@ -1,8 +1,8 @@
 .top_border {
   border-top-style: solid;
   border-width: 2px;
-  border-color: blueviolet;
-  width: 100%;
+  border-color: blue;
+  width: 150%;
 }
 
 .nav_styles {
@@ -32,7 +32,7 @@ li {
 }
 
 i:hover {
-  color: blueviolet;
+  color: blue;
 }
 
 .menu_link {
@@ -40,7 +40,7 @@ i:hover {
 }
 
 .menu_link:hover {
-  color: blueviolet;
+  color: blue;
 }
 
 @media (max-width: 630px) {

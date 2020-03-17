@@ -13,14 +13,13 @@ const Footer = () => (
         <Col>
           <h3>Tony Yang</h3>
           <p style={{ color: "blueviolet", fontSize: "1.3rem" }}>
-            {/*TODO: ADD A MAILTO-LINK */}
             <a href="mailto:txy3@cornell.edu">
-              <span style={{ color: "blueviolet" }}>txy3@cornell.edu</span>
+              <span style={{ color: "blue" }}>txy3@cornell.edu</span>
             </a>
           </p>
           <br />
           <p style={{ fontSize: "1.3rem" }}>
-            I'm a great developer that loves to code. I hope that I can propel social impact with technology
+            I'm a  developer that loves to code. I hope that I can propel social impact with technology
           </p>
         </Col>
       </Row>
@@ -53,9 +52,6 @@ const Footer = () => (
           </Link>
         </Col>
       </Row>
-
-      {/* TODO: Make use of the SocialRow component to make the below icons obsolete */}
-
       <Row className="footer_social text-center">
         <Col>
           <a

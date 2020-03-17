@@ -23,12 +23,11 @@ const Projects = () => (
         title={"Rider"}
         date={"2019-01-15"}
         description={
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit, provident esse adipisci ipsam accusamus. Vitae quae maiores quas beatae, quis cumque culpa itaque eveniet, vero nesciunt aspernatur odit optio."
+          "Rider is both an Android and iOS app that allows users of CULift to request rides around campus"
         }
         sourceURL={"https://github.com/cornell-dti/carriage-rider"}
-        hostedURL={"http://www.google.com"}
       />
-      <Link to="/projects" className="blueViolet">
+      <Link to="/projects" className="blue">
         Go to Projects page ---->
       </Link>
     </Container>
