@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
@@ -29,7 +30,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.16.4"
   },
   "repository": {
