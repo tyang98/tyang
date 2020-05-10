@@ -6,8 +6,10 @@ import ProjectCard from "../components/portProjectCard/ProjectCard"
 
 import "./index.css"
 
-import project1Picture from "../images/portfolio/logo_rider.png"
-import project2Picture from "../images/portfolio/tattler.png"
+import project1Picture from "../images/portfolio/scrabble.png"
+import project2Picture from "../images/portfolio/logo_rider.png"
+import project3Picture from "../images/portfolio/tattler.png"
+
 
 /*######### PROJECT OBJECTS TEMPLATE################
 import projectPicture from ""
@@ -23,9 +25,17 @@ const projectProject = {
 
 //TODO: Make this into an array with objects and map through them instead down below.
 
-//Project 1
-
+//Project 2
 const project1 = {
+  title: "OScrabble",
+  date: "2020-05-08",
+  decription:
+    "A functional implementation of the board game Scrabble with local multiplayer, word verification, and scoring.",
+  sourceURL: "https://github.com/tyang98/OScrabble",
+}
+
+//Project 2
+const project2 = {
   title: "Rider",
   date: "2020-01-15",
   decription:
@@ -33,9 +43,8 @@ const project1 = {
   sourceURL: "https://github.com/cornell-dti/carriage-rider",
 }
 
-//Project 2
-
-const project2 = {
+//Project 3
+const project3 = {
   title: "Tattler",
   date: "2019-03-03",
   decription:
@@ -80,6 +89,17 @@ export default () => (
               date={project2.date}
               description={project2.decription}
               sourceURL={project2.sourceURL}
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ProjectCard
+              imageSrcPath={project3Picture}
+              title={project3.title}
+              date={project3.date}
+              description={project3.decription}
+              sourceURL={project3.sourceURL}
             />
           </Col>
         </Row>
