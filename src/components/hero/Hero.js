@@ -11,7 +11,7 @@ const Hero = () => (
       </h1>
       <br />
       <h3>
-        I'm currently a CS student at Cornell University, interested in mobile development, computer vision, and systems
+        I'm currently a CS student at Cornell University, interested in full-stack/mobile development, programming languages, and systems
       </h3>
       <p>Have questions for me?</p>
       <p>
