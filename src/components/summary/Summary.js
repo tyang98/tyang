@@ -22,14 +22,14 @@ const Summary = () => (
         <span>JavaScript</span>
       </Col>
       <Col>
-        <i className="fab fa-html5 hover_effect" />
+        <i className="fab fa-react hover_effect" />
         <br />
-        <span>HTML5</span>
+        <span>React</span>
       </Col>
       <Col>
-        <i className="fab fa-css3 hover_effect" />
+        <i className="fab fa-python hover_effect" />
         <br />
-        <span>CSS3</span>
+        <span>Python</span>
       </Col>
     </Row>
     <br />
