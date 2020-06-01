@@ -7,7 +7,8 @@ import "./hero.css"
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
-      <h1>Hi, I'm Tony</h1>
+      <h1>Hi, I'm Tony  <span className="wave">👋</span>
+      </h1>
       <br />
       <h3>
         I'm currently a CS student at Cornell University, interested in mobile development, computer vision, and systems
