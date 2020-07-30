@@ -32,7 +32,7 @@ export default () => (
         </Row>
         <Row>
           <Col>
-            <h5>Computer Science student seeking enriching internship opportunities to apply software development skills for Summer 2020 </h5>
+            <h5>Computer Science student seeking enriching internship opportunities to apply software development skills for Summer 2021 </h5>
             <br />
           </Col>
         </Row>
@@ -54,7 +54,7 @@ export default () => (
         </Row>
         <br></br>
         <Row>
-          <Col> <b>Relevant Coursework: </b> Data Structures and Functional Programming, Object-Oriented Programming and Data Structures, Discrete Structures, Linear Algebra</Col>
+          <Col> <b>Relevant Coursework: </b> Data Structures and Functional Programming, Introduction to Analysis of Algorithms, Object-Oriented Programming and Data Structures, Discrete Structures, Linear Algebra. (Fall 2020) Programming Language and Logics, C++ Programming, Computer System Organization and Programming, Multivariable Calculus </Col>
         </Row>
         <br></br>
         <Row>
@@ -135,7 +135,7 @@ export default () => (
         <Row>
           <Col>
             <p style={{ marginTop: "1rem" }}>
-              • Compiled over 200 quarterly and annual 􀃕nancial reports for major Chinese automobile firms using
+              • Compiled over 200 quarterly and annual financial reports for major Chinese automobile firms using
               financial databases
             </p>
             <p style={{ marginTop: "1rem" }}>

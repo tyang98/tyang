@@ -58,11 +58,12 @@ const Footer = () => (
         <Col>
           Tony Yang © {new Date().getFullYear()}, Built with
           <i
-            className="fas fa-mug-hot"
+            className="fa fa-heart"
             style={{
               marginLeft: "10px",
               marginRight: "3px",
               fontSize: "1.5rem",
+              color: 'white'
             }}
           />
           <a href="https://www.gatsbyjs.org">
